@@ -1,0 +1,2 @@
+#Allow repeating keys on mac keyboard
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
