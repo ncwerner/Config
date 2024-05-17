@@ -1,0 +1,8 @@
+function randomGen($num){
+	if($num){
+		-join ((33..95)+(97..125) | get-random -count $num | % {[char]$_})
+	}
+	else{
+		-join ((33..95)+(97..125) | get-random -count 32 | % {[char]$_})
+	}
+}
